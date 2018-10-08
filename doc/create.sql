@@ -69,5 +69,8 @@ select student.*, sc.*, course.* from student, sc, course where student.sno = sc
 select * from tablecat
 select * from fieldcat
 
-
+.open demodb
+insert into student(sno, sname, sage) values("2012010101","tom simith",20);
+select sname from student where sno="2012010101"
 update student set sname = "tom" where sno = "2012010101"
+select sname from student where sno="2012010101"
