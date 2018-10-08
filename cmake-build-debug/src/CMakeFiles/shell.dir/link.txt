@@ -1,0 +1,2 @@
+E:\coldblocks\CodeBlocks\MinGW\bin\ar.exe qc ..\..\lib\libshelld.a  CMakeFiles/shell.dir/shell/shell.c.obj
+E:\coldblocks\CodeBlocks\MinGW\bin\ranlib.exe ..\..\lib\libshelld.a

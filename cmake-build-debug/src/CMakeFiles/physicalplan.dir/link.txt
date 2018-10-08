@@ -1,0 +1,2 @@
+E:\coldblocks\CodeBlocks\MinGW\bin\ar.exe qc ..\..\lib\libphysicalpland.a  CMakeFiles/physicalplan.dir/physicalplan/physical_scan_join_nest_loop.c.obj CMakeFiles/physicalplan.dir/physicalplan/physical_scan_project.c.obj CMakeFiles/physicalplan.dir/physicalplan/physical_scan_select.c.obj CMakeFiles/physicalplan.dir/physicalplan/physical_scan_table.c.obj CMakeFiles/physicalplan.dir/physicalplan/physicalplan.c.obj CMakeFiles/physicalplan.dir/physicalplan/physicalscan.c.obj
+E:\coldblocks\CodeBlocks\MinGW\bin\ranlib.exe ..\..\lib\libphysicalpland.a

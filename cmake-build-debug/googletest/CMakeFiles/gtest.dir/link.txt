@@ -1,0 +1,2 @@
+E:\coldblocks\CodeBlocks\MinGW\bin\ar.exe qc ..\..\lib\libgtestd.a  CMakeFiles/gtest.dir/src/gtest-all.cc.obj
+E:\coldblocks\CodeBlocks\MinGW\bin\ranlib.exe ..\..\lib\libgtestd.a

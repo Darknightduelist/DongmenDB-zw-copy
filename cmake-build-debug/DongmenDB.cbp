@@ -1,0 +1,885 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="DongmenDB"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\googletest\;CMake Files\googletest\cmake\;CMake Files\src\;CMake Files\src_experiment\;CMake Files\src_experiment\exp_01_stmt_parser\;CMake Files\src_experiment\exp_04_security\;CMake Files\src_experiment\exp_07_physical_operate\;CMake Files\src_test\;CMake Files\src_test\test_parser\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="G:/db_3/DongmenDB-master/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="E:/coldblocks/CodeBlocks/MinGW/bin/mingw32-make.exe -f &quot;G:/db_3/DongmenDB-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="E:/coldblocks/CodeBlocks/MinGW/bin/mingw32-make.exe -f &quot;G:/db_3/DongmenDB-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="E:/coldblocks/CodeBlocks/MinGW/bin/mingw32-make.exe -f &quot;G:/db_3/DongmenDB-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="E:/coldblocks/CodeBlocks/MinGW/bin/mingw32-make.exe -f &quot;G:/db_3/DongmenDB-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="G:/db_3/DongmenDB-master/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="E:/coldblocks/CodeBlocks/MinGW/bin/mingw32-make.exe -f &quot;G:/db_3/DongmenDB-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="E:/coldblocks/CodeBlocks/MinGW/bin/mingw32-make.exe -f &quot;G:/db_3/DongmenDB-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="E:/coldblocks/CodeBlocks/MinGW/bin/mingw32-make.exe -f &quot;G:/db_3/DongmenDB-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="E:/coldblocks/CodeBlocks/MinGW/bin/mingw32-make.exe -f &quot;G:/db_3/DongmenDB-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="dmdb">
+				<Option output="G:/db_3/DongmenDB-master/bin/dmdb.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="G:/db_3/DongmenDB-master/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="G:/db_3/DongmenDB-master/include"/>
+					<Add directory="G:/db_3/DongmenDB-master/googletest/include"/>
+					<Add directory="E:/coldblocks/CodeBlocks/MinGW/bin/../lib/gcc/mingw32/4.9.2/include/c++"/>
+					<Add directory="E:/coldblocks/CodeBlocks/MinGW/bin/../lib/gcc/mingw32/4.9.2/include/c++/mingw32"/>
+					<Add directory="E:/coldblocks/CodeBlocks/MinGW/bin/../lib/gcc/mingw32/4.9.2/include/c++/backward"/>
+					<Add directory="E:/coldblocks/CodeBlocks/MinGW/bin/../lib/gcc/mingw32/4.9.2/include"/>
+					<Add directory="E:/coldblocks/CodeBlocks/MinGW/bin/../lib/gcc/mingw32/4.9.2/../../../../include"/>
+					<Add directory="E:/coldblocks/CodeBlocks/MinGW/bin/../lib/gcc/mingw32/4.9.2/include-fixed"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="E:/coldblocks/CodeBlocks/MinGW/bin/mingw32-make.exe -f &quot;G:/db_3/DongmenDB-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 dmdb"/>
+					<CompileFile command="E:/coldblocks/CodeBlocks/MinGW/bin/mingw32-make.exe -f &quot;G:/db_3/DongmenDB-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="E:/coldblocks/CodeBlocks/MinGW/bin/mingw32-make.exe -f &quot;G:/db_3/DongmenDB-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="E:/coldblocks/CodeBlocks/MinGW/bin/mingw32-make.exe -f &quot;G:/db_3/DongmenDB-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="dmdb/fast">
+				<Option output="G:/db_3/DongmenDB-master/bin/dmdb.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="G:/db_3/DongmenDB-master/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="G:/db_3/DongmenDB-master/include"/>
+					<Add directory="G:/db_3/DongmenDB-master/googletest/include"/>
+					<Add directory="E:/coldblocks/CodeBlocks/MinGW/bin/../lib/gcc/mingw32/4.9.2/include/c++"/>
+					<Add directory="E:/coldblocks/CodeBlocks/MinGW/bin/../lib/gcc/mingw32/4.9.2/include/c++/mingw32"/>
+					<Add directory="E:/coldblocks/CodeBlocks/MinGW/bin/../lib/gcc/mingw32/4.9.2/include/c++/backward"/>
+					<Add directory="E:/coldblocks/CodeBlocks/MinGW/bin/../lib/gcc/mingw32/4.9.2/include"/>
+					<Add directory="E:/coldblocks/CodeBlocks/MinGW/bin/../lib/gcc/mingw32/4.9.2/../../../../include"/>
+					<Add directory="E:/coldblocks/CodeBlocks/MinGW/bin/../lib/gcc/mingw32/4.9.2/include-fixed"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="E:/coldblocks/CodeBlocks/MinGW/bin/mingw32-make.exe -f &quot;G:/db_3/DongmenDB-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 dmdb/fast"/>
+					<CompileFile command="E:/coldblocks/CodeBlocks/MinGW/bin/mingw32-make.exe -f &quot;G:/db_3/DongmenDB-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="E:/coldblocks/CodeBlocks/MinGW/bin/mingw32-make.exe -f &quot;G:/db_3/DongmenDB-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="E:/coldblocks/CodeBlocks/MinGW/bin/mingw32-make.exe -f &quot;G:/db_3/DongmenDB-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="G:/db_3/DongmenDB-master/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="E:/coldblocks/CodeBlocks/MinGW/bin/mingw32-make.exe -f &quot;G:/db_3/DongmenDB-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="E:/coldblocks/CodeBlocks/MinGW/bin/mingw32-make.exe -f &quot;G:/db_3/DongmenDB-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="E:/coldblocks/CodeBlocks/MinGW/bin/mingw32-make.exe -f &quot;G:/db_3/DongmenDB-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="E:/coldblocks/CodeBlocks/MinGW/bin/mingw32-make.exe -f &quot;G:/db_3/DongmenDB-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="gtest">
+				<Option output="G:/db_3/DongmenDB-master/lib/libgtestd.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="G:/db_3/DongmenDB-master/cmake-build-debug/googletest"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="G:/db_3/DongmenDB-master/include"/>
+					<Add directory="G:/db_3/DongmenDB-master/googletest/include"/>
+					<Add directory="G:/db_3/DongmenDB-master/googletest"/>
+					<Add directory="E:/coldblocks/CodeBlocks/MinGW/bin/../lib/gcc/mingw32/4.9.2/include/c++"/>
+					<Add directory="E:/coldblocks/CodeBlocks/MinGW/bin/../lib/gcc/mingw32/4.9.2/include/c++/mingw32"/>
+					<Add directory="E:/coldblocks/CodeBlocks/MinGW/bin/../lib/gcc/mingw32/4.9.2/include/c++/backward"/>
+					<Add directory="E:/coldblocks/CodeBlocks/MinGW/bin/../lib/gcc/mingw32/4.9.2/include"/>
+					<Add directory="E:/coldblocks/CodeBlocks/MinGW/bin/../lib/gcc/mingw32/4.9.2/../../../../include"/>
+					<Add directory="E:/coldblocks/CodeBlocks/MinGW/bin/../lib/gcc/mingw32/4.9.2/include-fixed"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="E:/coldblocks/CodeBlocks/MinGW/bin/mingw32-make.exe -f &quot;G:/db_3/DongmenDB-master/cmake-build-debug/googletest/Makefile&quot;  VERBOSE=1 gtest"/>
+					<CompileFile command="E:/coldblocks/CodeBlocks/MinGW/bin/mingw32-make.exe -f &quot;G:/db_3/DongmenDB-master/cmake-build-debug/googletest/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="E:/coldblocks/CodeBlocks/MinGW/bin/mingw32-make.exe -f &quot;G:/db_3/DongmenDB-master/cmake-build-debug/googletest/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="E:/coldblocks/CodeBlocks/MinGW/bin/mingw32-make.exe -f &quot;G:/db_3/DongmenDB-master/cmake-build-debug/googletest/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="gtest/fast">
+				<Option output="G:/db_3/DongmenDB-master/lib/libgtestd.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="G:/db_3/DongmenDB-master/cmake-build-debug/googletest"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="G:/db_3/DongmenDB-master/include"/>
+					<Add directory="G:/db_3/DongmenDB-master/googletest/include"/>
+					<Add directory="G:/db_3/DongmenDB-master/googletest"/>
+					<Add directory="E:/coldblocks/CodeBlocks/MinGW/bin/../lib/gcc/mingw32/4.9.2/include/c++"/>
+					<Add directory="E:/coldblocks/CodeBlocks/MinGW/bin/../lib/gcc/mingw32/4.9.2/include/c++/mingw32"/>
+					<Add directory="E:/coldblocks/CodeBlocks/MinGW/bin/../lib/gcc/mingw32/4.9.2/include/c++/backward"/>
+					<Add directory="E:/coldblocks/CodeBlocks/MinGW/bin/../lib/gcc/mingw32/4.9.2/include"/>
+					<Add directory="E:/coldblocks/CodeBlocks/MinGW/bin/../lib/gcc/mingw32/4.9.2/../../../../include"/>
+					<Add directory="E:/coldblocks/CodeBlocks/MinGW/bin/../lib/gcc/mingw32/4.9.2/include-fixed"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="E:/coldblocks/CodeBlocks/MinGW/bin/mingw32-make.exe -f &quot;G:/db_3/DongmenDB-master/cmake-build-debug/googletest/Makefile&quot;  VERBOSE=1 gtest/fast"/>
+					<CompileFile command="E:/coldblocks/CodeBlocks/MinGW/bin/mingw32-make.exe -f &quot;G:/db_3/DongmenDB-master/cmake-build-debug/googletest/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="E:/coldblocks/CodeBlocks/MinGW/bin/mingw32-make.exe -f &quot;G:/db_3/DongmenDB-master/cmake-build-debug/googletest/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="E:/coldblocks/CodeBlocks/MinGW/bin/mingw32-make.exe -f &quot;G:/db_3/DongmenDB-master/cmake-build-debug/googletest/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="gtest_main">
+				<Option output="G:/db_3/DongmenDB-master/lib/libgtest_maind.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="G:/db_3/DongmenDB-master/cmake-build-debug/googletest"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="G:/db_3/DongmenDB-master/include"/>
+					<Add directory="G:/db_3/DongmenDB-master/googletest"/>
+					<Add directory="G:/db_3/DongmenDB-master/googletest/include"/>
+					<Add directory="E:/coldblocks/CodeBlocks/MinGW/bin/../lib/gcc/mingw32/4.9.2/include/c++"/>
+					<Add directory="E:/coldblocks/CodeBlocks/MinGW/bin/../lib/gcc/mingw32/4.9.2/include/c++/mingw32"/>
+					<Add directory="E:/coldblocks/CodeBlocks/MinGW/bin/../lib/gcc/mingw32/4.9.2/include/c++/backward"/>
+					<Add directory="E:/coldblocks/CodeBlocks/MinGW/bin/../lib/gcc/mingw32/4.9.2/include"/>
+					<Add directory="E:/coldblocks/CodeBlocks/MinGW/bin/../lib/gcc/mingw32/4.9.2/../../../../include"/>
+					<Add directory="E:/coldblocks/CodeBlocks/MinGW/bin/../lib/gcc/mingw32/4.9.2/include-fixed"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="E:/coldblocks/CodeBlocks/MinGW/bin/mingw32-make.exe -f &quot;G:/db_3/DongmenDB-master/cmake-build-debug/googletest/Makefile&quot;  VERBOSE=1 gtest_main"/>
+					<CompileFile command="E:/coldblocks/CodeBlocks/MinGW/bin/mingw32-make.exe -f &quot;G:/db_3/DongmenDB-master/cmake-build-debug/googletest/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="E:/coldblocks/CodeBlocks/MinGW/bin/mingw32-make.exe -f &quot;G:/db_3/DongmenDB-master/cmake-build-debug/googletest/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="E:/coldblocks/CodeBlocks/MinGW/bin/mingw32-make.exe -f &quot;G:/db_3/DongmenDB-master/cmake-build-debug/googletest/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="gtest_main/fast">
+				<Option output="G:/db_3/DongmenDB-master/lib/libgtest_maind.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="G:/db_3/DongmenDB-master/cmake-build-debug/googletest"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="G:/db_3/DongmenDB-master/include"/>
+					<Add directory="G:/db_3/DongmenDB-master/googletest"/>
+					<Add directory="G:/db_3/DongmenDB-master/googletest/include"/>
+					<Add directory="E:/coldblocks/CodeBlocks/MinGW/bin/../lib/gcc/mingw32/4.9.2/include/c++"/>
+					<Add directory="E:/coldblocks/CodeBlocks/MinGW/bin/../lib/gcc/mingw32/4.9.2/include/c++/mingw32"/>
+					<Add directory="E:/coldblocks/CodeBlocks/MinGW/bin/../lib/gcc/mingw32/4.9.2/include/c++/backward"/>
+					<Add directory="E:/coldblocks/CodeBlocks/MinGW/bin/../lib/gcc/mingw32/4.9.2/include"/>
+					<Add directory="E:/coldblocks/CodeBlocks/MinGW/bin/../lib/gcc/mingw32/4.9.2/../../../../include"/>
+					<Add directory="E:/coldblocks/CodeBlocks/MinGW/bin/../lib/gcc/mingw32/4.9.2/include-fixed"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="E:/coldblocks/CodeBlocks/MinGW/bin/mingw32-make.exe -f &quot;G:/db_3/DongmenDB-master/cmake-build-debug/googletest/Makefile&quot;  VERBOSE=1 gtest_main/fast"/>
+					<CompileFile command="E:/coldblocks/CodeBlocks/MinGW/bin/mingw32-make.exe -f &quot;G:/db_3/DongmenDB-master/cmake-build-debug/googletest/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="E:/coldblocks/CodeBlocks/MinGW/bin/mingw32-make.exe -f &quot;G:/db_3/DongmenDB-master/cmake-build-debug/googletest/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="E:/coldblocks/CodeBlocks/MinGW/bin/mingw32-make.exe -f &quot;G:/db_3/DongmenDB-master/cmake-build-debug/googletest/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="utils">
+				<Option output="G:/db_3/DongmenDB-master/lib/libutilsd.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="G:/db_3/DongmenDB-master/cmake-build-debug/src"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="G:/db_3/DongmenDB-master/include"/>
+					<Add directory="G:/db_3/DongmenDB-master/googletest/include"/>
+					<Add directory="E:/coldblocks/CodeBlocks/MinGW/bin/../lib/gcc/mingw32/4.9.2/include/c++"/>
+					<Add directory="E:/coldblocks/CodeBlocks/MinGW/bin/../lib/gcc/mingw32/4.9.2/include/c++/mingw32"/>
+					<Add directory="E:/coldblocks/CodeBlocks/MinGW/bin/../lib/gcc/mingw32/4.9.2/include/c++/backward"/>
+					<Add directory="E:/coldblocks/CodeBlocks/MinGW/bin/../lib/gcc/mingw32/4.9.2/include"/>
+					<Add directory="E:/coldblocks/CodeBlocks/MinGW/bin/../lib/gcc/mingw32/4.9.2/../../../../include"/>
+					<Add directory="E:/coldblocks/CodeBlocks/MinGW/bin/../lib/gcc/mingw32/4.9.2/include-fixed"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="E:/coldblocks/CodeBlocks/MinGW/bin/mingw32-make.exe -f &quot;G:/db_3/DongmenDB-master/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 utils"/>
+					<CompileFile command="E:/coldblocks/CodeBlocks/MinGW/bin/mingw32-make.exe -f &quot;G:/db_3/DongmenDB-master/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="E:/coldblocks/CodeBlocks/MinGW/bin/mingw32-make.exe -f &quot;G:/db_3/DongmenDB-master/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="E:/coldblocks/CodeBlocks/MinGW/bin/mingw32-make.exe -f &quot;G:/db_3/DongmenDB-master/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="utils/fast">
+				<Option output="G:/db_3/DongmenDB-master/lib/libutilsd.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="G:/db_3/DongmenDB-master/cmake-build-debug/src"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="G:/db_3/DongmenDB-master/include"/>
+					<Add directory="G:/db_3/DongmenDB-master/googletest/include"/>
+					<Add directory="E:/coldblocks/CodeBlocks/MinGW/bin/../lib/gcc/mingw32/4.9.2/include/c++"/>
+					<Add directory="E:/coldblocks/CodeBlocks/MinGW/bin/../lib/gcc/mingw32/4.9.2/include/c++/mingw32"/>
+					<Add directory="E:/coldblocks/CodeBlocks/MinGW/bin/../lib/gcc/mingw32/4.9.2/include/c++/backward"/>
+					<Add directory="E:/coldblocks/CodeBlocks/MinGW/bin/../lib/gcc/mingw32/4.9.2/include"/>
+					<Add directory="E:/coldblocks/CodeBlocks/MinGW/bin/../lib/gcc/mingw32/4.9.2/../../../../include"/>
+					<Add directory="E:/coldblocks/CodeBlocks/MinGW/bin/../lib/gcc/mingw32/4.9.2/include-fixed"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="E:/coldblocks/CodeBlocks/MinGW/bin/mingw32-make.exe -f &quot;G:/db_3/DongmenDB-master/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 utils/fast"/>
+					<CompileFile command="E:/coldblocks/CodeBlocks/MinGW/bin/mingw32-make.exe -f &quot;G:/db_3/DongmenDB-master/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="E:/coldblocks/CodeBlocks/MinGW/bin/mingw32-make.exe -f &quot;G:/db_3/DongmenDB-master/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="E:/coldblocks/CodeBlocks/MinGW/bin/mingw32-make.exe -f &quot;G:/db_3/DongmenDB-master/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="dongmendb">
+				<Option output="G:/db_3/DongmenDB-master/lib/libdongmendbd.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="G:/db_3/DongmenDB-master/cmake-build-debug/src"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="G:/db_3/DongmenDB-master/include"/>
+					<Add directory="G:/db_3/DongmenDB-master/googletest/include"/>
+					<Add directory="E:/coldblocks/CodeBlocks/MinGW/bin/../lib/gcc/mingw32/4.9.2/include/c++"/>
+					<Add directory="E:/coldblocks/CodeBlocks/MinGW/bin/../lib/gcc/mingw32/4.9.2/include/c++/mingw32"/>
+					<Add directory="E:/coldblocks/CodeBlocks/MinGW/bin/../lib/gcc/mingw32/4.9.2/include/c++/backward"/>
+					<Add directory="E:/coldblocks/CodeBlocks/MinGW/bin/../lib/gcc/mingw32/4.9.2/include"/>
+					<Add directory="E:/coldblocks/CodeBlocks/MinGW/bin/../lib/gcc/mingw32/4.9.2/../../../../include"/>
+					<Add directory="E:/coldblocks/CodeBlocks/MinGW/bin/../lib/gcc/mingw32/4.9.2/include-fixed"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="E:/coldblocks/CodeBlocks/MinGW/bin/mingw32-make.exe -f &quot;G:/db_3/DongmenDB-master/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 dongmendb"/>
+					<CompileFile command="E:/coldblocks/CodeBlocks/MinGW/bin/mingw32-make.exe -f &quot;G:/db_3/DongmenDB-master/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="E:/coldblocks/CodeBlocks/MinGW/bin/mingw32-make.exe -f &quot;G:/db_3/DongmenDB-master/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="E:/coldblocks/CodeBlocks/MinGW/bin/mingw32-make.exe -f &quot;G:/db_3/DongmenDB-master/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="dongmendb/fast">
+				<Option output="G:/db_3/DongmenDB-master/lib/libdongmendbd.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="G:/db_3/DongmenDB-master/cmake-build-debug/src"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="G:/db_3/DongmenDB-master/include"/>
+					<Add directory="G:/db_3/DongmenDB-master/googletest/include"/>
+					<Add directory="E:/coldblocks/CodeBlocks/MinGW/bin/../lib/gcc/mingw32/4.9.2/include/c++"/>
+					<Add directory="E:/coldblocks/CodeBlocks/MinGW/bin/../lib/gcc/mingw32/4.9.2/include/c++/mingw32"/>
+					<Add directory="E:/coldblocks/CodeBlocks/MinGW/bin/../lib/gcc/mingw32/4.9.2/include/c++/backward"/>
+					<Add directory="E:/coldblocks/CodeBlocks/MinGW/bin/../lib/gcc/mingw32/4.9.2/include"/>
+					<Add directory="E:/coldblocks/CodeBlocks/MinGW/bin/../lib/gcc/mingw32/4.9.2/../../../../include"/>
+					<Add directory="E:/coldblocks/CodeBlocks/MinGW/bin/../lib/gcc/mingw32/4.9.2/include-fixed"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="E:/coldblocks/CodeBlocks/MinGW/bin/mingw32-make.exe -f &quot;G:/db_3/DongmenDB-master/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 dongmendb/fast"/>
+					<CompileFile command="E:/coldblocks/CodeBlocks/MinGW/bin/mingw32-make.exe -f &quot;G:/db_3/DongmenDB-master/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="E:/coldblocks/CodeBlocks/MinGW/bin/mingw32-make.exe -f &quot;G:/db_3/DongmenDB-master/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="E:/coldblocks/CodeBlocks/MinGW/bin/mingw32-make.exe -f &quot;G:/db_3/DongmenDB-master/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="parser">
+				<Option output="G:/db_3/DongmenDB-master/lib/libparserd.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="G:/db_3/DongmenDB-master/cmake-build-debug/src"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="G:/db_3/DongmenDB-master/include"/>
+					<Add directory="G:/db_3/DongmenDB-master/googletest/include"/>
+					<Add directory="E:/coldblocks/CodeBlocks/MinGW/bin/../lib/gcc/mingw32/4.9.2/include/c++"/>
+					<Add directory="E:/coldblocks/CodeBlocks/MinGW/bin/../lib/gcc/mingw32/4.9.2/include/c++/mingw32"/>
+					<Add directory="E:/coldblocks/CodeBlocks/MinGW/bin/../lib/gcc/mingw32/4.9.2/include/c++/backward"/>
+					<Add directory="E:/coldblocks/CodeBlocks/MinGW/bin/../lib/gcc/mingw32/4.9.2/include"/>
+					<Add directory="E:/coldblocks/CodeBlocks/MinGW/bin/../lib/gcc/mingw32/4.9.2/../../../../include"/>
+					<Add directory="E:/coldblocks/CodeBlocks/MinGW/bin/../lib/gcc/mingw32/4.9.2/include-fixed"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="E:/coldblocks/CodeBlocks/MinGW/bin/mingw32-make.exe -f &quot;G:/db_3/DongmenDB-master/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 parser"/>
+					<CompileFile command="E:/coldblocks/CodeBlocks/MinGW/bin/mingw32-make.exe -f &quot;G:/db_3/DongmenDB-master/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="E:/coldblocks/CodeBlocks/MinGW/bin/mingw32-make.exe -f &quot;G:/db_3/DongmenDB-master/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="E:/coldblocks/CodeBlocks/MinGW/bin/mingw32-make.exe -f &quot;G:/db_3/DongmenDB-master/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="parser/fast">
+				<Option output="G:/db_3/DongmenDB-master/lib/libparserd.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="G:/db_3/DongmenDB-master/cmake-build-debug/src"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="G:/db_3/DongmenDB-master/include"/>
+					<Add directory="G:/db_3/DongmenDB-master/googletest/include"/>
+					<Add directory="E:/coldblocks/CodeBlocks/MinGW/bin/../lib/gcc/mingw32/4.9.2/include/c++"/>
+					<Add directory="E:/coldblocks/CodeBlocks/MinGW/bin/../lib/gcc/mingw32/4.9.2/include/c++/mingw32"/>
+					<Add directory="E:/coldblocks/CodeBlocks/MinGW/bin/../lib/gcc/mingw32/4.9.2/include/c++/backward"/>
+					<Add directory="E:/coldblocks/CodeBlocks/MinGW/bin/../lib/gcc/mingw32/4.9.2/include"/>
+					<Add directory="E:/coldblocks/CodeBlocks/MinGW/bin/../lib/gcc/mingw32/4.9.2/../../../../include"/>
+					<Add directory="E:/coldblocks/CodeBlocks/MinGW/bin/../lib/gcc/mingw32/4.9.2/include-fixed"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="E:/coldblocks/CodeBlocks/MinGW/bin/mingw32-make.exe -f &quot;G:/db_3/DongmenDB-master/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 parser/fast"/>
+					<CompileFile command="E:/coldblocks/CodeBlocks/MinGW/bin/mingw32-make.exe -f &quot;G:/db_3/DongmenDB-master/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="E:/coldblocks/CodeBlocks/MinGW/bin/mingw32-make.exe -f &quot;G:/db_3/DongmenDB-master/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="E:/coldblocks/CodeBlocks/MinGW/bin/mingw32-make.exe -f &quot;G:/db_3/DongmenDB-master/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="dongmensql">
+				<Option output="G:/db_3/DongmenDB-master/lib/libdongmensqld.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="G:/db_3/DongmenDB-master/cmake-build-debug/src"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="G:/db_3/DongmenDB-master/include"/>
+					<Add directory="G:/db_3/DongmenDB-master/googletest/include"/>
+					<Add directory="E:/coldblocks/CodeBlocks/MinGW/bin/../lib/gcc/mingw32/4.9.2/include/c++"/>
+					<Add directory="E:/coldblocks/CodeBlocks/MinGW/bin/../lib/gcc/mingw32/4.9.2/include/c++/mingw32"/>
+					<Add directory="E:/coldblocks/CodeBlocks/MinGW/bin/../lib/gcc/mingw32/4.9.2/include/c++/backward"/>
+					<Add directory="E:/coldblocks/CodeBlocks/MinGW/bin/../lib/gcc/mingw32/4.9.2/include"/>
+					<Add directory="E:/coldblocks/CodeBlocks/MinGW/bin/../lib/gcc/mingw32/4.9.2/../../../../include"/>
+					<Add directory="E:/coldblocks/CodeBlocks/MinGW/bin/../lib/gcc/mingw32/4.9.2/include-fixed"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="E:/coldblocks/CodeBlocks/MinGW/bin/mingw32-make.exe -f &quot;G:/db_3/DongmenDB-master/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 dongmensql"/>
+					<CompileFile command="E:/coldblocks/CodeBlocks/MinGW/bin/mingw32-make.exe -f &quot;G:/db_3/DongmenDB-master/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="E:/coldblocks/CodeBlocks/MinGW/bin/mingw32-make.exe -f &quot;G:/db_3/DongmenDB-master/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="E:/coldblocks/CodeBlocks/MinGW/bin/mingw32-make.exe -f &quot;G:/db_3/DongmenDB-master/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="dongmensql/fast">
+				<Option output="G:/db_3/DongmenDB-master/lib/libdongmensqld.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="G:/db_3/DongmenDB-master/cmake-build-debug/src"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="G:/db_3/DongmenDB-master/include"/>
+					<Add directory="G:/db_3/DongmenDB-master/googletest/include"/>
+					<Add directory="E:/coldblocks/CodeBlocks/MinGW/bin/../lib/gcc/mingw32/4.9.2/include/c++"/>
+					<Add directory="E:/coldblocks/CodeBlocks/MinGW/bin/../lib/gcc/mingw32/4.9.2/include/c++/mingw32"/>
+					<Add directory="E:/coldblocks/CodeBlocks/MinGW/bin/../lib/gcc/mingw32/4.9.2/include/c++/backward"/>
+					<Add directory="E:/coldblocks/CodeBlocks/MinGW/bin/../lib/gcc/mingw32/4.9.2/include"/>
+					<Add directory="E:/coldblocks/CodeBlocks/MinGW/bin/../lib/gcc/mingw32/4.9.2/../../../../include"/>
+					<Add directory="E:/coldblocks/CodeBlocks/MinGW/bin/../lib/gcc/mingw32/4.9.2/include-fixed"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="E:/coldblocks/CodeBlocks/MinGW/bin/mingw32-make.exe -f &quot;G:/db_3/DongmenDB-master/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 dongmensql/fast"/>
+					<CompileFile command="E:/coldblocks/CodeBlocks/MinGW/bin/mingw32-make.exe -f &quot;G:/db_3/DongmenDB-master/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="E:/coldblocks/CodeBlocks/MinGW/bin/mingw32-make.exe -f &quot;G:/db_3/DongmenDB-master/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="E:/coldblocks/CodeBlocks/MinGW/bin/mingw32-make.exe -f &quot;G:/db_3/DongmenDB-master/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="physicalplan">
+				<Option output="G:/db_3/DongmenDB-master/lib/libphysicalpland.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="G:/db_3/DongmenDB-master/cmake-build-debug/src"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="G:/db_3/DongmenDB-master/include"/>
+					<Add directory="G:/db_3/DongmenDB-master/googletest/include"/>
+					<Add directory="E:/coldblocks/CodeBlocks/MinGW/bin/../lib/gcc/mingw32/4.9.2/include/c++"/>
+					<Add directory="E:/coldblocks/CodeBlocks/MinGW/bin/../lib/gcc/mingw32/4.9.2/include/c++/mingw32"/>
+					<Add directory="E:/coldblocks/CodeBlocks/MinGW/bin/../lib/gcc/mingw32/4.9.2/include/c++/backward"/>
+					<Add directory="E:/coldblocks/CodeBlocks/MinGW/bin/../lib/gcc/mingw32/4.9.2/include"/>
+					<Add directory="E:/coldblocks/CodeBlocks/MinGW/bin/../lib/gcc/mingw32/4.9.2/../../../../include"/>
+					<Add directory="E:/coldblocks/CodeBlocks/MinGW/bin/../lib/gcc/mingw32/4.9.2/include-fixed"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="E:/coldblocks/CodeBlocks/MinGW/bin/mingw32-make.exe -f &quot;G:/db_3/DongmenDB-master/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 physicalplan"/>
+					<CompileFile command="E:/coldblocks/CodeBlocks/MinGW/bin/mingw32-make.exe -f &quot;G:/db_3/DongmenDB-master/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="E:/coldblocks/CodeBlocks/MinGW/bin/mingw32-make.exe -f &quot;G:/db_3/DongmenDB-master/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="E:/coldblocks/CodeBlocks/MinGW/bin/mingw32-make.exe -f &quot;G:/db_3/DongmenDB-master/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="physicalplan/fast">
+				<Option output="G:/db_3/DongmenDB-master/lib/libphysicalpland.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="G:/db_3/DongmenDB-master/cmake-build-debug/src"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="G:/db_3/DongmenDB-master/include"/>
+					<Add directory="G:/db_3/DongmenDB-master/googletest/include"/>
+					<Add directory="E:/coldblocks/CodeBlocks/MinGW/bin/../lib/gcc/mingw32/4.9.2/include/c++"/>
+					<Add directory="E:/coldblocks/CodeBlocks/MinGW/bin/../lib/gcc/mingw32/4.9.2/include/c++/mingw32"/>
+					<Add directory="E:/coldblocks/CodeBlocks/MinGW/bin/../lib/gcc/mingw32/4.9.2/include/c++/backward"/>
+					<Add directory="E:/coldblocks/CodeBlocks/MinGW/bin/../lib/gcc/mingw32/4.9.2/include"/>
+					<Add directory="E:/coldblocks/CodeBlocks/MinGW/bin/../lib/gcc/mingw32/4.9.2/../../../../include"/>
+					<Add directory="E:/coldblocks/CodeBlocks/MinGW/bin/../lib/gcc/mingw32/4.9.2/include-fixed"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="E:/coldblocks/CodeBlocks/MinGW/bin/mingw32-make.exe -f &quot;G:/db_3/DongmenDB-master/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 physicalplan/fast"/>
+					<CompileFile command="E:/coldblocks/CodeBlocks/MinGW/bin/mingw32-make.exe -f &quot;G:/db_3/DongmenDB-master/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="E:/coldblocks/CodeBlocks/MinGW/bin/mingw32-make.exe -f &quot;G:/db_3/DongmenDB-master/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="E:/coldblocks/CodeBlocks/MinGW/bin/mingw32-make.exe -f &quot;G:/db_3/DongmenDB-master/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="shell">
+				<Option output="G:/db_3/DongmenDB-master/lib/libshelld.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="G:/db_3/DongmenDB-master/cmake-build-debug/src"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="G:/db_3/DongmenDB-master/include"/>
+					<Add directory="G:/db_3/DongmenDB-master/googletest/include"/>
+					<Add directory="E:/coldblocks/CodeBlocks/MinGW/bin/../lib/gcc/mingw32/4.9.2/include/c++"/>
+					<Add directory="E:/coldblocks/CodeBlocks/MinGW/bin/../lib/gcc/mingw32/4.9.2/include/c++/mingw32"/>
+					<Add directory="E:/coldblocks/CodeBlocks/MinGW/bin/../lib/gcc/mingw32/4.9.2/include/c++/backward"/>
+					<Add directory="E:/coldblocks/CodeBlocks/MinGW/bin/../lib/gcc/mingw32/4.9.2/include"/>
+					<Add directory="E:/coldblocks/CodeBlocks/MinGW/bin/../lib/gcc/mingw32/4.9.2/../../../../include"/>
+					<Add directory="E:/coldblocks/CodeBlocks/MinGW/bin/../lib/gcc/mingw32/4.9.2/include-fixed"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="E:/coldblocks/CodeBlocks/MinGW/bin/mingw32-make.exe -f &quot;G:/db_3/DongmenDB-master/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 shell"/>
+					<CompileFile command="E:/coldblocks/CodeBlocks/MinGW/bin/mingw32-make.exe -f &quot;G:/db_3/DongmenDB-master/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="E:/coldblocks/CodeBlocks/MinGW/bin/mingw32-make.exe -f &quot;G:/db_3/DongmenDB-master/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="E:/coldblocks/CodeBlocks/MinGW/bin/mingw32-make.exe -f &quot;G:/db_3/DongmenDB-master/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="shell/fast">
+				<Option output="G:/db_3/DongmenDB-master/lib/libshelld.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="G:/db_3/DongmenDB-master/cmake-build-debug/src"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="G:/db_3/DongmenDB-master/include"/>
+					<Add directory="G:/db_3/DongmenDB-master/googletest/include"/>
+					<Add directory="E:/coldblocks/CodeBlocks/MinGW/bin/../lib/gcc/mingw32/4.9.2/include/c++"/>
+					<Add directory="E:/coldblocks/CodeBlocks/MinGW/bin/../lib/gcc/mingw32/4.9.2/include/c++/mingw32"/>
+					<Add directory="E:/coldblocks/CodeBlocks/MinGW/bin/../lib/gcc/mingw32/4.9.2/include/c++/backward"/>
+					<Add directory="E:/coldblocks/CodeBlocks/MinGW/bin/../lib/gcc/mingw32/4.9.2/include"/>
+					<Add directory="E:/coldblocks/CodeBlocks/MinGW/bin/../lib/gcc/mingw32/4.9.2/../../../../include"/>
+					<Add directory="E:/coldblocks/CodeBlocks/MinGW/bin/../lib/gcc/mingw32/4.9.2/include-fixed"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="E:/coldblocks/CodeBlocks/MinGW/bin/mingw32-make.exe -f &quot;G:/db_3/DongmenDB-master/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 shell/fast"/>
+					<CompileFile command="E:/coldblocks/CodeBlocks/MinGW/bin/mingw32-make.exe -f &quot;G:/db_3/DongmenDB-master/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="E:/coldblocks/CodeBlocks/MinGW/bin/mingw32-make.exe -f &quot;G:/db_3/DongmenDB-master/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="E:/coldblocks/CodeBlocks/MinGW/bin/mingw32-make.exe -f &quot;G:/db_3/DongmenDB-master/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="exp_01_01_create_table_test">
+				<Option output="G:/db_3/DongmenDB-master/bin/exp_01_01_create_table_test.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="G:/db_3/DongmenDB-master/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="G:/db_3/DongmenDB-master/include"/>
+					<Add directory="G:/db_3/DongmenDB-master/googletest/include"/>
+					<Add directory="E:/coldblocks/CodeBlocks/MinGW/bin/../lib/gcc/mingw32/4.9.2/include/c++"/>
+					<Add directory="E:/coldblocks/CodeBlocks/MinGW/bin/../lib/gcc/mingw32/4.9.2/include/c++/mingw32"/>
+					<Add directory="E:/coldblocks/CodeBlocks/MinGW/bin/../lib/gcc/mingw32/4.9.2/include/c++/backward"/>
+					<Add directory="E:/coldblocks/CodeBlocks/MinGW/bin/../lib/gcc/mingw32/4.9.2/include"/>
+					<Add directory="E:/coldblocks/CodeBlocks/MinGW/bin/../lib/gcc/mingw32/4.9.2/../../../../include"/>
+					<Add directory="E:/coldblocks/CodeBlocks/MinGW/bin/../lib/gcc/mingw32/4.9.2/include-fixed"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="E:/coldblocks/CodeBlocks/MinGW/bin/mingw32-make.exe -f &quot;G:/db_3/DongmenDB-master/cmake-build-debug/src_experiment/exp_01_stmt_parser/Makefile&quot;  VERBOSE=1 exp_01_01_create_table_test"/>
+					<CompileFile command="E:/coldblocks/CodeBlocks/MinGW/bin/mingw32-make.exe -f &quot;G:/db_3/DongmenDB-master/cmake-build-debug/src_experiment/exp_01_stmt_parser/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="E:/coldblocks/CodeBlocks/MinGW/bin/mingw32-make.exe -f &quot;G:/db_3/DongmenDB-master/cmake-build-debug/src_experiment/exp_01_stmt_parser/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="E:/coldblocks/CodeBlocks/MinGW/bin/mingw32-make.exe -f &quot;G:/db_3/DongmenDB-master/cmake-build-debug/src_experiment/exp_01_stmt_parser/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="exp_01_01_create_table_test/fast">
+				<Option output="G:/db_3/DongmenDB-master/bin/exp_01_01_create_table_test.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="G:/db_3/DongmenDB-master/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="G:/db_3/DongmenDB-master/include"/>
+					<Add directory="G:/db_3/DongmenDB-master/googletest/include"/>
+					<Add directory="E:/coldblocks/CodeBlocks/MinGW/bin/../lib/gcc/mingw32/4.9.2/include/c++"/>
+					<Add directory="E:/coldblocks/CodeBlocks/MinGW/bin/../lib/gcc/mingw32/4.9.2/include/c++/mingw32"/>
+					<Add directory="E:/coldblocks/CodeBlocks/MinGW/bin/../lib/gcc/mingw32/4.9.2/include/c++/backward"/>
+					<Add directory="E:/coldblocks/CodeBlocks/MinGW/bin/../lib/gcc/mingw32/4.9.2/include"/>
+					<Add directory="E:/coldblocks/CodeBlocks/MinGW/bin/../lib/gcc/mingw32/4.9.2/../../../../include"/>
+					<Add directory="E:/coldblocks/CodeBlocks/MinGW/bin/../lib/gcc/mingw32/4.9.2/include-fixed"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="E:/coldblocks/CodeBlocks/MinGW/bin/mingw32-make.exe -f &quot;G:/db_3/DongmenDB-master/cmake-build-debug/src_experiment/exp_01_stmt_parser/Makefile&quot;  VERBOSE=1 exp_01_01_create_table_test/fast"/>
+					<CompileFile command="E:/coldblocks/CodeBlocks/MinGW/bin/mingw32-make.exe -f &quot;G:/db_3/DongmenDB-master/cmake-build-debug/src_experiment/exp_01_stmt_parser/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="E:/coldblocks/CodeBlocks/MinGW/bin/mingw32-make.exe -f &quot;G:/db_3/DongmenDB-master/cmake-build-debug/src_experiment/exp_01_stmt_parser/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="E:/coldblocks/CodeBlocks/MinGW/bin/mingw32-make.exe -f &quot;G:/db_3/DongmenDB-master/cmake-build-debug/src_experiment/exp_01_stmt_parser/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="exp_01_03_select_test">
+				<Option output="G:/db_3/DongmenDB-master/bin/exp_01_03_select_test.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="G:/db_3/DongmenDB-master/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="G:/db_3/DongmenDB-master/include"/>
+					<Add directory="G:/db_3/DongmenDB-master/googletest/include"/>
+					<Add directory="E:/coldblocks/CodeBlocks/MinGW/bin/../lib/gcc/mingw32/4.9.2/include/c++"/>
+					<Add directory="E:/coldblocks/CodeBlocks/MinGW/bin/../lib/gcc/mingw32/4.9.2/include/c++/mingw32"/>
+					<Add directory="E:/coldblocks/CodeBlocks/MinGW/bin/../lib/gcc/mingw32/4.9.2/include/c++/backward"/>
+					<Add directory="E:/coldblocks/CodeBlocks/MinGW/bin/../lib/gcc/mingw32/4.9.2/include"/>
+					<Add directory="E:/coldblocks/CodeBlocks/MinGW/bin/../lib/gcc/mingw32/4.9.2/../../../../include"/>
+					<Add directory="E:/coldblocks/CodeBlocks/MinGW/bin/../lib/gcc/mingw32/4.9.2/include-fixed"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="E:/coldblocks/CodeBlocks/MinGW/bin/mingw32-make.exe -f &quot;G:/db_3/DongmenDB-master/cmake-build-debug/src_experiment/exp_01_stmt_parser/Makefile&quot;  VERBOSE=1 exp_01_03_select_test"/>
+					<CompileFile command="E:/coldblocks/CodeBlocks/MinGW/bin/mingw32-make.exe -f &quot;G:/db_3/DongmenDB-master/cmake-build-debug/src_experiment/exp_01_stmt_parser/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="E:/coldblocks/CodeBlocks/MinGW/bin/mingw32-make.exe -f &quot;G:/db_3/DongmenDB-master/cmake-build-debug/src_experiment/exp_01_stmt_parser/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="E:/coldblocks/CodeBlocks/MinGW/bin/mingw32-make.exe -f &quot;G:/db_3/DongmenDB-master/cmake-build-debug/src_experiment/exp_01_stmt_parser/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="exp_01_03_select_test/fast">
+				<Option output="G:/db_3/DongmenDB-master/bin/exp_01_03_select_test.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="G:/db_3/DongmenDB-master/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="G:/db_3/DongmenDB-master/include"/>
+					<Add directory="G:/db_3/DongmenDB-master/googletest/include"/>
+					<Add directory="E:/coldblocks/CodeBlocks/MinGW/bin/../lib/gcc/mingw32/4.9.2/include/c++"/>
+					<Add directory="E:/coldblocks/CodeBlocks/MinGW/bin/../lib/gcc/mingw32/4.9.2/include/c++/mingw32"/>
+					<Add directory="E:/coldblocks/CodeBlocks/MinGW/bin/../lib/gcc/mingw32/4.9.2/include/c++/backward"/>
+					<Add directory="E:/coldblocks/CodeBlocks/MinGW/bin/../lib/gcc/mingw32/4.9.2/include"/>
+					<Add directory="E:/coldblocks/CodeBlocks/MinGW/bin/../lib/gcc/mingw32/4.9.2/../../../../include"/>
+					<Add directory="E:/coldblocks/CodeBlocks/MinGW/bin/../lib/gcc/mingw32/4.9.2/include-fixed"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="E:/coldblocks/CodeBlocks/MinGW/bin/mingw32-make.exe -f &quot;G:/db_3/DongmenDB-master/cmake-build-debug/src_experiment/exp_01_stmt_parser/Makefile&quot;  VERBOSE=1 exp_01_03_select_test/fast"/>
+					<CompileFile command="E:/coldblocks/CodeBlocks/MinGW/bin/mingw32-make.exe -f &quot;G:/db_3/DongmenDB-master/cmake-build-debug/src_experiment/exp_01_stmt_parser/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="E:/coldblocks/CodeBlocks/MinGW/bin/mingw32-make.exe -f &quot;G:/db_3/DongmenDB-master/cmake-build-debug/src_experiment/exp_01_stmt_parser/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="E:/coldblocks/CodeBlocks/MinGW/bin/mingw32-make.exe -f &quot;G:/db_3/DongmenDB-master/cmake-build-debug/src_experiment/exp_01_stmt_parser/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="exp_01_04_update_test">
+				<Option output="G:/db_3/DongmenDB-master/bin/exp_01_04_update_test.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="G:/db_3/DongmenDB-master/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="G:/db_3/DongmenDB-master/include"/>
+					<Add directory="G:/db_3/DongmenDB-master/googletest/include"/>
+					<Add directory="E:/coldblocks/CodeBlocks/MinGW/bin/../lib/gcc/mingw32/4.9.2/include/c++"/>
+					<Add directory="E:/coldblocks/CodeBlocks/MinGW/bin/../lib/gcc/mingw32/4.9.2/include/c++/mingw32"/>
+					<Add directory="E:/coldblocks/CodeBlocks/MinGW/bin/../lib/gcc/mingw32/4.9.2/include/c++/backward"/>
+					<Add directory="E:/coldblocks/CodeBlocks/MinGW/bin/../lib/gcc/mingw32/4.9.2/include"/>
+					<Add directory="E:/coldblocks/CodeBlocks/MinGW/bin/../lib/gcc/mingw32/4.9.2/../../../../include"/>
+					<Add directory="E:/coldblocks/CodeBlocks/MinGW/bin/../lib/gcc/mingw32/4.9.2/include-fixed"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="E:/coldblocks/CodeBlocks/MinGW/bin/mingw32-make.exe -f &quot;G:/db_3/DongmenDB-master/cmake-build-debug/src_experiment/exp_01_stmt_parser/Makefile&quot;  VERBOSE=1 exp_01_04_update_test"/>
+					<CompileFile command="E:/coldblocks/CodeBlocks/MinGW/bin/mingw32-make.exe -f &quot;G:/db_3/DongmenDB-master/cmake-build-debug/src_experiment/exp_01_stmt_parser/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="E:/coldblocks/CodeBlocks/MinGW/bin/mingw32-make.exe -f &quot;G:/db_3/DongmenDB-master/cmake-build-debug/src_experiment/exp_01_stmt_parser/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="E:/coldblocks/CodeBlocks/MinGW/bin/mingw32-make.exe -f &quot;G:/db_3/DongmenDB-master/cmake-build-debug/src_experiment/exp_01_stmt_parser/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="exp_01_04_update_test/fast">
+				<Option output="G:/db_3/DongmenDB-master/bin/exp_01_04_update_test.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="G:/db_3/DongmenDB-master/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="G:/db_3/DongmenDB-master/include"/>
+					<Add directory="G:/db_3/DongmenDB-master/googletest/include"/>
+					<Add directory="E:/coldblocks/CodeBlocks/MinGW/bin/../lib/gcc/mingw32/4.9.2/include/c++"/>
+					<Add directory="E:/coldblocks/CodeBlocks/MinGW/bin/../lib/gcc/mingw32/4.9.2/include/c++/mingw32"/>
+					<Add directory="E:/coldblocks/CodeBlocks/MinGW/bin/../lib/gcc/mingw32/4.9.2/include/c++/backward"/>
+					<Add directory="E:/coldblocks/CodeBlocks/MinGW/bin/../lib/gcc/mingw32/4.9.2/include"/>
+					<Add directory="E:/coldblocks/CodeBlocks/MinGW/bin/../lib/gcc/mingw32/4.9.2/../../../../include"/>
+					<Add directory="E:/coldblocks/CodeBlocks/MinGW/bin/../lib/gcc/mingw32/4.9.2/include-fixed"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="E:/coldblocks/CodeBlocks/MinGW/bin/mingw32-make.exe -f &quot;G:/db_3/DongmenDB-master/cmake-build-debug/src_experiment/exp_01_stmt_parser/Makefile&quot;  VERBOSE=1 exp_01_04_update_test/fast"/>
+					<CompileFile command="E:/coldblocks/CodeBlocks/MinGW/bin/mingw32-make.exe -f &quot;G:/db_3/DongmenDB-master/cmake-build-debug/src_experiment/exp_01_stmt_parser/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="E:/coldblocks/CodeBlocks/MinGW/bin/mingw32-make.exe -f &quot;G:/db_3/DongmenDB-master/cmake-build-debug/src_experiment/exp_01_stmt_parser/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="E:/coldblocks/CodeBlocks/MinGW/bin/mingw32-make.exe -f &quot;G:/db_3/DongmenDB-master/cmake-build-debug/src_experiment/exp_01_stmt_parser/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="exp_01_05_delete_test">
+				<Option output="G:/db_3/DongmenDB-master/bin/exp_01_05_delete_test.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="G:/db_3/DongmenDB-master/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="G:/db_3/DongmenDB-master/include"/>
+					<Add directory="G:/db_3/DongmenDB-master/googletest/include"/>
+					<Add directory="E:/coldblocks/CodeBlocks/MinGW/bin/../lib/gcc/mingw32/4.9.2/include/c++"/>
+					<Add directory="E:/coldblocks/CodeBlocks/MinGW/bin/../lib/gcc/mingw32/4.9.2/include/c++/mingw32"/>
+					<Add directory="E:/coldblocks/CodeBlocks/MinGW/bin/../lib/gcc/mingw32/4.9.2/include/c++/backward"/>
+					<Add directory="E:/coldblocks/CodeBlocks/MinGW/bin/../lib/gcc/mingw32/4.9.2/include"/>
+					<Add directory="E:/coldblocks/CodeBlocks/MinGW/bin/../lib/gcc/mingw32/4.9.2/../../../../include"/>
+					<Add directory="E:/coldblocks/CodeBlocks/MinGW/bin/../lib/gcc/mingw32/4.9.2/include-fixed"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="E:/coldblocks/CodeBlocks/MinGW/bin/mingw32-make.exe -f &quot;G:/db_3/DongmenDB-master/cmake-build-debug/src_experiment/exp_01_stmt_parser/Makefile&quot;  VERBOSE=1 exp_01_05_delete_test"/>
+					<CompileFile command="E:/coldblocks/CodeBlocks/MinGW/bin/mingw32-make.exe -f &quot;G:/db_3/DongmenDB-master/cmake-build-debug/src_experiment/exp_01_stmt_parser/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="E:/coldblocks/CodeBlocks/MinGW/bin/mingw32-make.exe -f &quot;G:/db_3/DongmenDB-master/cmake-build-debug/src_experiment/exp_01_stmt_parser/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="E:/coldblocks/CodeBlocks/MinGW/bin/mingw32-make.exe -f &quot;G:/db_3/DongmenDB-master/cmake-build-debug/src_experiment/exp_01_stmt_parser/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="exp_01_05_delete_test/fast">
+				<Option output="G:/db_3/DongmenDB-master/bin/exp_01_05_delete_test.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="G:/db_3/DongmenDB-master/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="G:/db_3/DongmenDB-master/include"/>
+					<Add directory="G:/db_3/DongmenDB-master/googletest/include"/>
+					<Add directory="E:/coldblocks/CodeBlocks/MinGW/bin/../lib/gcc/mingw32/4.9.2/include/c++"/>
+					<Add directory="E:/coldblocks/CodeBlocks/MinGW/bin/../lib/gcc/mingw32/4.9.2/include/c++/mingw32"/>
+					<Add directory="E:/coldblocks/CodeBlocks/MinGW/bin/../lib/gcc/mingw32/4.9.2/include/c++/backward"/>
+					<Add directory="E:/coldblocks/CodeBlocks/MinGW/bin/../lib/gcc/mingw32/4.9.2/include"/>
+					<Add directory="E:/coldblocks/CodeBlocks/MinGW/bin/../lib/gcc/mingw32/4.9.2/../../../../include"/>
+					<Add directory="E:/coldblocks/CodeBlocks/MinGW/bin/../lib/gcc/mingw32/4.9.2/include-fixed"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="E:/coldblocks/CodeBlocks/MinGW/bin/mingw32-make.exe -f &quot;G:/db_3/DongmenDB-master/cmake-build-debug/src_experiment/exp_01_stmt_parser/Makefile&quot;  VERBOSE=1 exp_01_05_delete_test/fast"/>
+					<CompileFile command="E:/coldblocks/CodeBlocks/MinGW/bin/mingw32-make.exe -f &quot;G:/db_3/DongmenDB-master/cmake-build-debug/src_experiment/exp_01_stmt_parser/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="E:/coldblocks/CodeBlocks/MinGW/bin/mingw32-make.exe -f &quot;G:/db_3/DongmenDB-master/cmake-build-debug/src_experiment/exp_01_stmt_parser/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="E:/coldblocks/CodeBlocks/MinGW/bin/mingw32-make.exe -f &quot;G:/db_3/DongmenDB-master/cmake-build-debug/src_experiment/exp_01_stmt_parser/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test_parser_expression">
+				<Option output="G:/db_3/DongmenDB-master/bin/test_parser_expression.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="G:/db_3/DongmenDB-master/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="G:/db_3/DongmenDB-master/include"/>
+					<Add directory="G:/db_3/DongmenDB-master/googletest/include"/>
+					<Add directory="E:/coldblocks/CodeBlocks/MinGW/bin/../lib/gcc/mingw32/4.9.2/include/c++"/>
+					<Add directory="E:/coldblocks/CodeBlocks/MinGW/bin/../lib/gcc/mingw32/4.9.2/include/c++/mingw32"/>
+					<Add directory="E:/coldblocks/CodeBlocks/MinGW/bin/../lib/gcc/mingw32/4.9.2/include/c++/backward"/>
+					<Add directory="E:/coldblocks/CodeBlocks/MinGW/bin/../lib/gcc/mingw32/4.9.2/include"/>
+					<Add directory="E:/coldblocks/CodeBlocks/MinGW/bin/../lib/gcc/mingw32/4.9.2/../../../../include"/>
+					<Add directory="E:/coldblocks/CodeBlocks/MinGW/bin/../lib/gcc/mingw32/4.9.2/include-fixed"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="E:/coldblocks/CodeBlocks/MinGW/bin/mingw32-make.exe -f &quot;G:/db_3/DongmenDB-master/cmake-build-debug/src_test/test_parser/Makefile&quot;  VERBOSE=1 test_parser_expression"/>
+					<CompileFile command="E:/coldblocks/CodeBlocks/MinGW/bin/mingw32-make.exe -f &quot;G:/db_3/DongmenDB-master/cmake-build-debug/src_test/test_parser/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="E:/coldblocks/CodeBlocks/MinGW/bin/mingw32-make.exe -f &quot;G:/db_3/DongmenDB-master/cmake-build-debug/src_test/test_parser/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="E:/coldblocks/CodeBlocks/MinGW/bin/mingw32-make.exe -f &quot;G:/db_3/DongmenDB-master/cmake-build-debug/src_test/test_parser/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test_parser_expression/fast">
+				<Option output="G:/db_3/DongmenDB-master/bin/test_parser_expression.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="G:/db_3/DongmenDB-master/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="G:/db_3/DongmenDB-master/include"/>
+					<Add directory="G:/db_3/DongmenDB-master/googletest/include"/>
+					<Add directory="E:/coldblocks/CodeBlocks/MinGW/bin/../lib/gcc/mingw32/4.9.2/include/c++"/>
+					<Add directory="E:/coldblocks/CodeBlocks/MinGW/bin/../lib/gcc/mingw32/4.9.2/include/c++/mingw32"/>
+					<Add directory="E:/coldblocks/CodeBlocks/MinGW/bin/../lib/gcc/mingw32/4.9.2/include/c++/backward"/>
+					<Add directory="E:/coldblocks/CodeBlocks/MinGW/bin/../lib/gcc/mingw32/4.9.2/include"/>
+					<Add directory="E:/coldblocks/CodeBlocks/MinGW/bin/../lib/gcc/mingw32/4.9.2/../../../../include"/>
+					<Add directory="E:/coldblocks/CodeBlocks/MinGW/bin/../lib/gcc/mingw32/4.9.2/include-fixed"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="E:/coldblocks/CodeBlocks/MinGW/bin/mingw32-make.exe -f &quot;G:/db_3/DongmenDB-master/cmake-build-debug/src_test/test_parser/Makefile&quot;  VERBOSE=1 test_parser_expression/fast"/>
+					<CompileFile command="E:/coldblocks/CodeBlocks/MinGW/bin/mingw32-make.exe -f &quot;G:/db_3/DongmenDB-master/cmake-build-debug/src_test/test_parser/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="E:/coldblocks/CodeBlocks/MinGW/bin/mingw32-make.exe -f &quot;G:/db_3/DongmenDB-master/cmake-build-debug/src_test/test_parser/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="E:/coldblocks/CodeBlocks/MinGW/bin/mingw32-make.exe -f &quot;G:/db_3/DongmenDB-master/cmake-build-debug/src_test/test_parser/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="G:/db_3/DongmenDB-master/googletest/src/gtest-all.cc">
+			<Option target="gtest"/>
+		</Unit>
+		<Unit filename="G:/db_3/DongmenDB-master/googletest/src/gtest_main.cc">
+			<Option target="gtest_main"/>
+		</Unit>
+		<Unit filename="G:/db_3/DongmenDB-master/main.c">
+			<Option target="dmdb"/>
+		</Unit>
+		<Unit filename="G:/db_3/DongmenDB-master/src/dongmendb/buffermanager.c">
+			<Option target="dongmendb"/>
+		</Unit>
+		<Unit filename="G:/db_3/DongmenDB-master/src/dongmendb/dongmendb.c">
+			<Option target="dongmendb"/>
+		</Unit>
+		<Unit filename="G:/db_3/DongmenDB-master/src/dongmendb/filemanager.c">
+			<Option target="dongmendb"/>
+		</Unit>
+		<Unit filename="G:/db_3/DongmenDB-master/src/dongmendb/integritymanager.c">
+			<Option target="dongmendb"/>
+		</Unit>
+		<Unit filename="G:/db_3/DongmenDB-master/src/dongmendb/logmanager.c">
+			<Option target="dongmendb"/>
+		</Unit>
+		<Unit filename="G:/db_3/DongmenDB-master/src/dongmendb/metadatamanager.c">
+			<Option target="dongmendb"/>
+		</Unit>
+		<Unit filename="G:/db_3/DongmenDB-master/src/dongmendb/recordfile.c">
+			<Option target="dongmendb"/>
+		</Unit>
+		<Unit filename="G:/db_3/DongmenDB-master/src/dongmendb/securitymanager.c">
+			<Option target="dongmendb"/>
+		</Unit>
+		<Unit filename="G:/db_3/DongmenDB-master/src/dongmendb/transaction.c">
+			<Option target="dongmendb"/>
+		</Unit>
+		<Unit filename="G:/db_3/DongmenDB-master/src/dongmensql/column.c">
+			<Option target="dongmensql"/>
+		</Unit>
+		<Unit filename="G:/db_3/DongmenDB-master/src/dongmensql/common.c">
+			<Option target="dongmensql"/>
+		</Unit>
+		<Unit filename="G:/db_3/DongmenDB-master/src/dongmensql/create.c">
+			<Option target="dongmensql"/>
+		</Unit>
+		<Unit filename="G:/db_3/DongmenDB-master/src/dongmensql/delete.c">
+			<Option target="dongmensql"/>
+		</Unit>
+		<Unit filename="G:/db_3/DongmenDB-master/src/dongmensql/insert.c">
+			<Option target="dongmensql"/>
+		</Unit>
+		<Unit filename="G:/db_3/DongmenDB-master/src/dongmensql/literal.c">
+			<Option target="dongmensql"/>
+		</Unit>
+		<Unit filename="G:/db_3/DongmenDB-master/src/dongmensql/optimizer.c">
+			<Option target="dongmensql"/>
+		</Unit>
+		<Unit filename="G:/db_3/DongmenDB-master/src/dongmensql/queryplan.c">
+			<Option target="dongmensql"/>
+		</Unit>
+		<Unit filename="G:/db_3/DongmenDB-master/src/dongmensql/ra.c">
+			<Option target="dongmensql"/>
+		</Unit>
+		<Unit filename="G:/db_3/DongmenDB-master/src/dongmensql/row.c">
+			<Option target="dongmensql"/>
+		</Unit>
+		<Unit filename="G:/db_3/DongmenDB-master/src/dongmensql/sra.c">
+			<Option target="dongmensql"/>
+		</Unit>
+		<Unit filename="G:/db_3/DongmenDB-master/src/parser/expression.c">
+			<Option target="parser"/>
+		</Unit>
+		<Unit filename="G:/db_3/DongmenDB-master/src/parser/parser.c">
+			<Option target="parser"/>
+		</Unit>
+		<Unit filename="G:/db_3/DongmenDB-master/src/parser/statement.c">
+			<Option target="parser"/>
+		</Unit>
+		<Unit filename="G:/db_3/DongmenDB-master/src/parser/tokenizer.c">
+			<Option target="parser"/>
+		</Unit>
+		<Unit filename="G:/db_3/DongmenDB-master/src/physicalplan/physical_scan_join_nest_loop.c">
+			<Option target="physicalplan"/>
+		</Unit>
+		<Unit filename="G:/db_3/DongmenDB-master/src/physicalplan/physical_scan_project.c">
+			<Option target="physicalplan"/>
+		</Unit>
+		<Unit filename="G:/db_3/DongmenDB-master/src/physicalplan/physical_scan_select.c">
+			<Option target="physicalplan"/>
+		</Unit>
+		<Unit filename="G:/db_3/DongmenDB-master/src/physicalplan/physical_scan_table.c">
+			<Option target="physicalplan"/>
+		</Unit>
+		<Unit filename="G:/db_3/DongmenDB-master/src/physicalplan/physicalplan.c">
+			<Option target="physicalplan"/>
+		</Unit>
+		<Unit filename="G:/db_3/DongmenDB-master/src/physicalplan/physicalscan.c">
+			<Option target="physicalplan"/>
+		</Unit>
+		<Unit filename="G:/db_3/DongmenDB-master/src/shell/shell.c">
+			<Option target="shell"/>
+		</Unit>
+		<Unit filename="G:/db_3/DongmenDB-master/src/utils/arraylist.c">
+			<Option target="utils"/>
+		</Unit>
+		<Unit filename="G:/db_3/DongmenDB-master/src/utils/hashmap.c">
+			<Option target="utils"/>
+		</Unit>
+		<Unit filename="G:/db_3/DongmenDB-master/src/utils/opstack.c">
+			<Option target="utils"/>
+		</Unit>
+		<Unit filename="G:/db_3/DongmenDB-master/src/utils/utils.c">
+			<Option target="utils"/>
+		</Unit>
+		<Unit filename="G:/db_3/DongmenDB-master/src_experiment/exp_01_stmt_parser/exp_01_01_create_table.c">
+			<Option target="parser"/>
+		</Unit>
+		<Unit filename="G:/db_3/DongmenDB-master/src_experiment/exp_01_stmt_parser/exp_01_01_create_table_test.cpp">
+			<Option target="exp_01_01_create_table_test"/>
+		</Unit>
+		<Unit filename="G:/db_3/DongmenDB-master/src_experiment/exp_01_stmt_parser/exp_01_02_insert.c">
+			<Option target="parser"/>
+		</Unit>
+		<Unit filename="G:/db_3/DongmenDB-master/src_experiment/exp_01_stmt_parser/exp_01_03_select.c">
+			<Option target="parser"/>
+		</Unit>
+		<Unit filename="G:/db_3/DongmenDB-master/src_experiment/exp_01_stmt_parser/exp_01_03_select_test.cpp">
+			<Option target="exp_01_03_select_test"/>
+		</Unit>
+		<Unit filename="G:/db_3/DongmenDB-master/src_experiment/exp_01_stmt_parser/exp_01_04_update.c">
+			<Option target="parser"/>
+		</Unit>
+		<Unit filename="G:/db_3/DongmenDB-master/src_experiment/exp_01_stmt_parser/exp_01_04_update_test.cpp">
+			<Option target="exp_01_04_update_test"/>
+		</Unit>
+		<Unit filename="G:/db_3/DongmenDB-master/src_experiment/exp_01_stmt_parser/exp_01_05_delete.c">
+			<Option target="parser"/>
+		</Unit>
+		<Unit filename="G:/db_3/DongmenDB-master/src_experiment/exp_01_stmt_parser/exp_01_05_delete_test.cpp">
+			<Option target="exp_01_05_delete_test"/>
+		</Unit>
+		<Unit filename="G:/db_3/DongmenDB-master/src_experiment/exp_02_semantic/exp_02_01_table_exists.c">
+			<Option target="dongmendb"/>
+		</Unit>
+		<Unit filename="G:/db_3/DongmenDB-master/src_experiment/exp_02_semantic/exp_02_02_field_exists.c">
+			<Option target="dongmendb"/>
+		</Unit>
+		<Unit filename="G:/db_3/DongmenDB-master/src_experiment/exp_03_integrity/exp_03_01_integrity_check.c">
+			<Option target="dongmendb"/>
+		</Unit>
+		<Unit filename="G:/db_3/DongmenDB-master/src_experiment/exp_04_security/exp_04_01_security_parser.c">
+			<Option target="parser"/>
+		</Unit>
+		<Unit filename="G:/db_3/DongmenDB-master/src_experiment/exp_04_security/exp_04_02_rights_manager.c">
+			<Option target="dongmendb"/>
+		</Unit>
+		<Unit filename="G:/db_3/DongmenDB-master/src_experiment/exp_07_physical_operate/exp_07_05_update.c">
+			<Option target="parser"/>
+		</Unit>
+		<Unit filename="G:/db_3/DongmenDB-master/src_experiment/exp_07_physical_operate/exp_07_06_delete.c">
+			<Option target="parser"/>
+		</Unit>
+		<Unit filename="G:/db_3/DongmenDB-master/src_test/test_parser/test_parser_expression.cpp">
+			<Option target="test_parser_expression"/>
+		</Unit>
+		<Unit filename="G:/db_3/DongmenDB-master/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="G:/db_3/DongmenDB-master/googletest/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\googletest\"/>
+		</Unit>
+		<Unit filename="G:/db_3/DongmenDB-master/googletest/cmake/internal_utils.cmake">
+			<Option virtualFolder="CMake Files\googletest\cmake\"/>
+		</Unit>
+		<Unit filename="G:/db_3/DongmenDB-master/src/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\src\"/>
+		</Unit>
+		<Unit filename="G:/db_3/DongmenDB-master/src_experiment/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\src_experiment\"/>
+		</Unit>
+		<Unit filename="G:/db_3/DongmenDB-master/src_experiment/exp_01_stmt_parser/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\src_experiment\exp_01_stmt_parser\"/>
+		</Unit>
+		<Unit filename="G:/db_3/DongmenDB-master/src_experiment/exp_04_security/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\src_experiment\exp_04_security\"/>
+		</Unit>
+		<Unit filename="G:/db_3/DongmenDB-master/src_experiment/exp_07_physical_operate/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\src_experiment\exp_07_physical_operate\"/>
+		</Unit>
+		<Unit filename="G:/db_3/DongmenDB-master/src_test/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\src_test\"/>
+		</Unit>
+		<Unit filename="G:/db_3/DongmenDB-master/src_test/test_parser/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\src_test\test_parser\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
