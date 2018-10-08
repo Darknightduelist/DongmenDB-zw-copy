@@ -120,6 +120,8 @@ common.h
 
 ../include/dongmensql/optimizer.h
 
+../include/dongmensql/queryplan.h
+
 ../include/dongmensql/ra.h
 parser/expression.h
 ../include/dongmensql/parser/expression.h
@@ -182,31 +184,31 @@ parser/tokenizer.h
 arraylist.h
 ../include/utils/arraylist.h
 
-G:/db_3/DongmenDB-master/src/dongmensql/column.c
+G:/db_4/DongmenDB-master/src/dongmensql/column.c
 dongmensql/dongmensql.h
-G:/db_3/DongmenDB-master/src/dongmensql/dongmensql/dongmensql.h
+G:/db_4/DongmenDB-master/src/dongmensql/dongmensql/dongmensql.h
 
-G:/db_3/DongmenDB-master/src/dongmensql/common.c
+G:/db_4/DongmenDB-master/src/dongmensql/common.c
 dongmensql/dongmensql.h
 -
 
-G:/db_3/DongmenDB-master/src/dongmensql/create.c
+G:/db_4/DongmenDB-master/src/dongmensql/create.c
 dongmensql/create.h
-G:/db_3/DongmenDB-master/src/dongmensql/dongmensql/create.h
+G:/db_4/DongmenDB-master/src/dongmensql/dongmensql/create.h
 
-G:/db_3/DongmenDB-master/src/dongmensql/delete.c
+G:/db_4/DongmenDB-master/src/dongmensql/delete.c
 dongmensql/dongmensql.h
-G:/db_3/DongmenDB-master/src/dongmensql/dongmensql/dongmensql.h
+G:/db_4/DongmenDB-master/src/dongmensql/dongmensql/dongmensql.h
 
-G:/db_3/DongmenDB-master/src/dongmensql/insert.c
-dongmensql/dongmensql.h
--
-
-G:/db_3/DongmenDB-master/src/dongmensql/literal.c
+G:/db_4/DongmenDB-master/src/dongmensql/insert.c
 dongmensql/dongmensql.h
 -
 
-G:/db_3/DongmenDB-master/src/dongmensql/optimizer.c
+G:/db_4/DongmenDB-master/src/dongmensql/literal.c
+dongmensql/dongmensql.h
+-
+
+G:/db_4/DongmenDB-master/src/dongmensql/optimizer.c
 dongmendb/dongmendb.h
 -
 dongmensql/dongmensql.h
@@ -216,17 +218,21 @@ mem.h
 malloc.h
 -
 dongmensql/optimizer.h
-G:/db_3/DongmenDB-master/src/dongmensql/dongmensql/optimizer.h
+G:/db_4/DongmenDB-master/src/dongmensql/dongmensql/optimizer.h
 
-G:/db_3/DongmenDB-master/src/dongmensql/ra.c
+G:/db_4/DongmenDB-master/src/dongmensql/queryplan.c
+dongmensql/queryplan.h
+G:/db_4/DongmenDB-master/src/dongmensql/dongmensql/queryplan.h
+
+G:/db_4/DongmenDB-master/src/dongmensql/ra.c
 dongmensql/dongmensql.h
-G:/db_3/DongmenDB-master/src/dongmensql/dongmensql/dongmensql.h
+G:/db_4/DongmenDB-master/src/dongmensql/dongmensql/dongmensql.h
 
-G:/db_3/DongmenDB-master/src/dongmensql/row.c
+G:/db_4/DongmenDB-master/src/dongmensql/row.c
 dongmensql/row.h
-G:/db_3/DongmenDB-master/src/dongmensql/dongmensql/row.h
+G:/db_4/DongmenDB-master/src/dongmensql/dongmensql/row.h
 
-G:/db_3/DongmenDB-master/src/dongmensql/sra.c
+G:/db_4/DongmenDB-master/src/dongmensql/sra.c
 dongmensql/dongmensql.h
-G:/db_3/DongmenDB-master/src/dongmensql/dongmensql/dongmensql.h
+G:/db_4/DongmenDB-master/src/dongmensql/dongmensql/dongmensql.h
 

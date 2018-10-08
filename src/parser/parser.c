@@ -73,17 +73,10 @@ void *parseError(ParserT *parser, char *message) {
     return NULL;
 };
 
-/**
- * 匹配sql语句中的保留关键字
- * @param parser
- * @param type
- * @param text
- * @return
- */
 int matchToken(ParserT *parser, TokenType type, char *text){
     TokenT *token = parseNextToken(parser);
-    if (token->type == type && stricmp(token->text, text) == 0) {
-        parseEatAndNextToken(parser);//获取下一个token，因此该函数拥有自动获取下一个token的功能
+    if (token && token->type == type && stricmp(token->text, text) == 0) {
+        parseEatAndNextToken(parser);
         return 1;
     } else {
         strcpy(parser->parserMessage, "invalid sql : missing ");

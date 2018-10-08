@@ -224,11 +224,7 @@ parser/tokenizer.h
 arraylist.h
 ../include/utils/arraylist.h
 
-G:/db_3/DongmenDB-master/src_experiment/exp_01_stmt_parser/exp_01_04_update.c
-parser/statement.h
--
-
-G:/db_3/DongmenDB-master/src_experiment/exp_07_physical_operate/exp_07_05_update.c
+G:/db_4/DongmenDB-master/src_experiment/exp_07_physical_operate/exp_07_05_update.c
 physicalplan/physicalplan.h
-G:/db_3/DongmenDB-master/src_experiment/exp_07_physical_operate/physicalplan/physicalplan.h
+G:/db_4/DongmenDB-master/src_experiment/exp_07_physical_operate/physicalplan/physicalplan.h
 

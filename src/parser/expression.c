@@ -458,13 +458,13 @@ Expression *concatExpression(Expression *expr0, Expression *expr1) {
 
 Expression *parseReadExpr(ParserT *parser) {
     Expression *expr0 = NULL, *expr1 = NULL, *expr2 = NULL;
-    TokenT *token = parseNextToken(parser); //首先判断当前解析器中的词是否为 NULL,如果是，就获取下一个 token;否则就返回当前词
+    TokenT *token = parseNextToken(parser);
     if (token == NULL) {
         return parseError(parser, "syntax error.");
     }
     if (token->type == TOKEN_PLUS || token->type == TOKEN_MINUS) {
         /*处理正负号*/
-        parseEatToken(parser);//获取下一个token
+        parseEatToken(parser);
         expr0 = parseReadTerm(parser);
         expr0 = newExpression(token->type, expr0);
     } else {
@@ -536,7 +536,7 @@ Expression *parseReadBooleanAnd(ParserT *parser) {
 
 Expression *parseReadBooleanOr(ParserT *parser) {
     Expression *expr0, *expr1 = NULL, *expr2 = NULL;
-    TokenT *token = parseNextToken(parser); ///首先判断当前解析器中的词是否为 NULL,如果是，就获取下一个 token;否则就返回当前词
+    TokenT *token = parseNextToken(parser);
     expr0 = parseReadBooleanAnd(parser);
     token = parseNextToken(parser);
 

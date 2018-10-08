@@ -6,6 +6,7 @@ create table sc(sno char(10), cno char(10), grade integer);
 .open demodb
 
 
+
 insert into student(sno, sname, sage) values("2012010101","tom simith",20);
 insert into student(sno, sname, sage) values("2012010102","jack simith",21);
 insert into student(sno, sname, sage) values("2012010103","li simith",22);
@@ -41,7 +42,6 @@ insert into sc(sno, cno, grade) values("2012010107","c003",80);
 
 
 .open demodb
-select sname from student
 select student.sno,sname from student, sc, course where student.sno = sc.sno and sc.cno = course.cno and grade > 80
 select student.sno,sname, cname, grade from student, sc, course where student.sno = sc.sno and sc.cno = course.cno and grade > 80
 
@@ -69,6 +69,5 @@ select student.*, sc.*, course.* from student, sc, course where student.sno = sc
 select * from tablecat
 select * from fieldcat
 
-select cname from student where sage= "20"
-update student set sname = "tom" where sno = "001"
+
 update student set sname = "tom" where sno = "2012010101"

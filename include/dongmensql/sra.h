@@ -87,10 +87,10 @@ typedef struct order_by_expr_ {
 } order_by_expr;
 
 typedef struct SRA_Project_s {
-    SRA_t *sra;  ///指向自身的指针
+    SRA_t *sra;
     arraylist *expr_list; //expression列表
     arraylist *order_by; //order_by_expr的列表
-    int distinct; ///不同的
+    int distinct;
     arraylist *group_by; // expression列表
 } SRA_Project_t;
 
@@ -108,14 +108,14 @@ typedef struct SRA_Binary_s {
     SRA_t *sra1, *sra2;
 } SRA_Binary_t;
 
-struct SRA_s {///就是SRA_t
+struct SRA_s {
     enum SRAType t;
     union {
-        SRA_Table_t table; ///其中有两个char数组，分别是表名和表名的别名
-        SRA_Project_t project; ///包含三个arraylist，其中三个中两个是expression列表，一个是order_by_expr列表
-        SRA_Select_t select; ///包含了一个expression和一个SRA_t指针
-        SRA_Join_t join; ///两个SRA_t指针，一个JoinCondition_t？？
-        SRA_Binary_t binary; ///两个SRA_t指针
+        SRA_Table_t table;
+        SRA_Project_t project;
+        SRA_Select_t select;
+        SRA_Join_t join;
+        SRA_Binary_t binary;
     };
 };
 

@@ -108,4 +108,3 @@ sql_stmt_insert *parse_sql_stmt_insert(ParserT *parser) {
     sqlStmtInsert->values = values;
     return sqlStmtInsert;
 };
-

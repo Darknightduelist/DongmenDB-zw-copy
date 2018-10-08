@@ -107,7 +107,7 @@ typedef struct ColumnReference_s ColumnReference_t;
 /*终结符：标识符，常量*/
 typedef struct TermExpr_ {
     TermType t;
-    union {  ///相当于结构体
+    union {
         char *id;
         Literal_t *val;
         ColumnReference_t *ref;
@@ -117,12 +117,12 @@ typedef struct TermExpr_ {
 
 typedef struct Expression_ {
     /*当term不为空时，表示是term*/
-    TokenType opType; ///token中的关键词
-    TermExpr *term; ///在上面
+    TokenType opType;
+    TermExpr *term;
     /*如果出现在select子句中，则可以有别名*/
     char *alias;
     /*按链表顺序存操作数*/
-    Expression *nextexpr;  ///自身标记的指针
+    Expression *nextexpr;
 
 } Expression;
 

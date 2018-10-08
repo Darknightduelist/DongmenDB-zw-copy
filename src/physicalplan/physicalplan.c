@@ -9,12 +9,15 @@
 /*将关系代数表达式转换为物理扫描计划*/
 physical_scan *plan_execute_select(dongmendb *db, SRA_t *sra, transaction *tx){
     physical_scan *plan = physical_scan_generate(db, sra, tx);
-    if (plan->scanType == SCAN_TYPE_PROJECT) {//扫描类型工程？？？
+    if (plan->scanType == SCAN_TYPE_PROJECT) {
         /*处理select 中形如 student.* */
         physical_scan_project_generate_expr_list(plan);
     }
     return plan;
 };
+
+
+
 /**
  * insert数据，一次一条
  * @param db

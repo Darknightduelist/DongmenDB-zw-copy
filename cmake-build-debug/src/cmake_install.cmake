@@ -1,4 +1,4 @@
-# Install script for directory: G:/db_3/DongmenDB-master/src
+# Install script for directory: G:/db_4/DongmenDB-master/src
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

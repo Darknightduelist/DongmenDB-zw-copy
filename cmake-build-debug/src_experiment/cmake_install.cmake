@@ -1,4 +1,4 @@
-# Install script for directory: G:/db_3/DongmenDB-master/src_experiment
+# Install script for directory: G:/db_4/DongmenDB-master/src_experiment
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -34,9 +34,9 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("G:/db_3/DongmenDB-master/cmake-build-debug/src_experiment/exp_01_stmt_parser/cmake_install.cmake")
-  include("G:/db_3/DongmenDB-master/cmake-build-debug/src_experiment/exp_04_security/cmake_install.cmake")
-  include("G:/db_3/DongmenDB-master/cmake-build-debug/src_experiment/exp_07_physical_operate/cmake_install.cmake")
+  include("G:/db_4/DongmenDB-master/cmake-build-debug/src_experiment/exp_01_stmt_parser/cmake_install.cmake")
+  include("G:/db_4/DongmenDB-master/cmake-build-debug/src_experiment/exp_04_security/cmake_install.cmake")
+  include("G:/db_4/DongmenDB-master/cmake-build-debug/src_experiment/exp_07_physical_operate/cmake_install.cmake")
 
 endif()
 

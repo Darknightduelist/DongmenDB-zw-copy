@@ -47,10 +47,10 @@ RM = "D:\clion\CLion 2018.2.3\bin\cmake\win\bin\cmake.exe" -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = G:\db_3\DongmenDB-master
+CMAKE_SOURCE_DIR = G:\db_4\DongmenDB-master
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = G:\db_3\DongmenDB-master\cmake-build-debug
+CMAKE_BINARY_DIR = G:\db_4\DongmenDB-master\cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -79,9 +79,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start G:\db_3\DongmenDB-master\cmake-build-debug\CMakeFiles G:\db_3\DongmenDB-master\cmake-build-debug\CMakeFiles\progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start G:\db_4\DongmenDB-master\cmake-build-debug\CMakeFiles G:\db_4\DongmenDB-master\cmake-build-debug\CMakeFiles\progress.marks
 	$(MAKE) -f CMakeFiles\Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start G:\db_3\DongmenDB-master\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start G:\db_4\DongmenDB-master\cmake-build-debug\CMakeFiles 0
 .PHONY : all
 
 # The main clean target

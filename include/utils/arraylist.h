@@ -11,8 +11,8 @@ extern "C" {
 #endif
 
 typedef struct arraylist {
-    void **data;///？？？
-    size_t capacity;//size_t相当于int，只不过兼容性更好一点
+    void **data;
+    size_t capacity;
     size_t size;
 } arraylist;
 

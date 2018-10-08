@@ -25,7 +25,7 @@ typedef struct KeyDec_s {
 } KeyDec_t;
 
 typedef struct TableReference_s {
-    char *table_name, *alias;///alias的意思是‘别名’
+    char *table_name, *alias;
 } TableReference_t;
 
 typedef struct Index_s {
