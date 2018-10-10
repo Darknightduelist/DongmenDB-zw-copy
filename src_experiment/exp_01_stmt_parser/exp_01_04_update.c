@@ -84,15 +84,15 @@ sql_stmt_update *parse_sql_stmt_update(ParserT *parser) {
         }
     }
     sql_stmt_update *sqlStmtUpdate = (sql_stmt_update *) malloc(sizeof(sql_stmt_update));
+
+    TableReference_t *ref =   TableReference_make(tableName, NULL);//TableReference_make(char *table_name, char *alias)//alias的意思是‘别名’
+    SRA_t *table =  SRATable(ref);//创建一个表关系
+    sqlStmtUpdate->where = table;
+    if (where != NULL) {
+        sqlStmtUpdate->where = SRASelect(table, where);//SRA_t *SRASelect(SRA_t *sra, Expression *cond)//创建选择关系
+    }
     sqlStmtUpdate->tableName = tableName;
     sqlStmtUpdate->fields = fields;
     sqlStmtUpdate->fieldsExpr = fieldsExpr;
-    //char *table_name, *alias;///alias的意思是‘别名’
-    TableReference_t *ref =   TableReference_make(tableName, NULL);//TableReference_make(char *table_name, char *alias)
-    SRA_t *table =  SRATable(ref);//保存需要更新的字段
-    sqlStmtUpdate->where = table;
-    if (where != NULL) {
-        sqlStmtUpdate->where = SRASelect(table, where);//SRA_t *SRASelect(SRA_t *sra, Expression *cond)
-    }
     return sqlStmtUpdate;
 };

@@ -120,8 +120,6 @@ common.h
 
 ../include/dongmensql/optimizer.h
 
-../include/dongmensql/queryplan.h
-
 ../include/dongmensql/ra.h
 parser/expression.h
 ../include/dongmensql/parser/expression.h
@@ -219,10 +217,6 @@ malloc.h
 -
 dongmensql/optimizer.h
 G:/db_4/DongmenDB-master/src/dongmensql/dongmensql/optimizer.h
-
-G:/db_4/DongmenDB-master/src/dongmensql/queryplan.c
-dongmensql/queryplan.h
-G:/db_4/DongmenDB-master/src/dongmensql/dongmensql/queryplan.h
 
 G:/db_4/DongmenDB-master/src/dongmensql/ra.c
 dongmensql/dongmensql.h

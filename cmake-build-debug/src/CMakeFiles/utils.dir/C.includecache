@@ -126,22 +126,6 @@ parser/tokenizer.h
 arraylist.h
 ../include/utils/arraylist.h
 
-G:/db_4/DongmenDB-master/src/utils/arraylist.c
-mem.h
--
-utils/arraylist.h
-G:/db_4/DongmenDB-master/src/utils/utils/arraylist.h
-
-G:/db_4/DongmenDB-master/src/utils/hashmap.c
-utils/hashmap.h
-G:/db_4/DongmenDB-master/src/utils/utils/hashmap.h
-stdlib.h
--
-stdio.h
--
-string.h
--
-
 G:/db_4/DongmenDB-master/src/utils/opstack.c
 malloc.h
 -
